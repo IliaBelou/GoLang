@@ -1,0 +1,16 @@
+PS C:\Users\iliab\Desktop\Видеокурсы и т.д\GoLang\Lesson5> $Env:GOOS = "linux"
+PS C:\Users\iliab\Desktop\Видеокурсы и т.д\GoLang\Lesson5> $Env:GOOS
+linux
+PS C:\Users\iliab\Desktop\Видеокурсы и т.д\GoLang\Lesson5> go build Lesson5.go
+PS C:\Users\iliab\Desktop\Видеокурсы и т.д\GoLang\Lesson5>
+
+userl@ubuntuos5:~/lesson5$ file Lesson5
+Lesson5: ELF 64-bit LSB executable, X86-64, version 1 (SYSV), statically linked, Go BuildID=DjhkZYjA
+lU82yp27mqtC/RclZUNdF6fpL4ZUVzoLG/I3RTjhilB3SWp6293rQ0/IxfOxfN8ECQGnVjjFEhB, not stripped
+userl@ubuntuos5:~/lesson5$ chmod +x Lesson5.run
+chmod: cannot access 1 Lesson5.run1: No such file or directory
+userl@ubuntuos5:~/lesson5$ chmod +x Lesson5
+userl@ubuntuos5:~/lesson5$ ./Lesson5
+Введите N ряда Фибоначчи: 5
+Результат: 5
+Exit ?: yes/no
